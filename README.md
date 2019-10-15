@@ -12,7 +12,7 @@ The project prompt was to maximize Incremental Response Rate and Net Incremental
 
 ## My Approach
 
-I went ahead and used the training data to build a model to classify users as either "Yes" or "No" to whether the user should receive the promotion. Due to imbalanced classes, I upsampled the minority class and utilized a Gradient Boosting Classifier.
+I used the training data to build a model to classify users as either "Yes" or "No" to whether they should receive the promotion. Due to imbalanced classes, I upsampled the minority class. After trying out different algorithms (not captured in analysis displayed), I chose the Gradient Boosting Classifier due to performance that did 2x as well as the benchmark model in terms of Net Incremental Revenue.
 
 ## Important Files
 
