@@ -16,14 +16,12 @@ I went ahead and used the training data to build a model to classify users as ei
 
 ## Important Files
 
-| --- | --- |
-| Starbucks_PromotionStrategy_Classifier.ipynb | -- |
-| training.csv | training data utilized in Starbucks_PromotionStrategy_Classifier.ipynb |
-| Test.csv | test data that is utilized by the test_results module |
-| test_results.py | --  |
-| yellowbrick_visualizer.ipynb | notebook that uses yellowbrick's [Classification Visualizers](https://www.scikit-yb.org/en/latest/api/classifier/index.html) |
-
-
-
+| File | Description |
+| --- | ----------- |
+| Starbucks_PromotionStrategy_Classifier.ipynb | Notebook containing analysis and evaluation |
+| training.csv | training data  |
+| Test.csv | test data that is utilized by the test_results module  |
+| test_results.py | module used to evaluate optimization strategy against benchmark  |
+| yellowbrick_visualizer.ipynb  | notebook that uses yellowbrick's [Classification Visualizers](https://www.scikit-yb.org/en/latest/api/classifier/index.html)  |
 
 
